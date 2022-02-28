@@ -1,0 +1,133 @@
+
+@media (max-width:1300px) {
+    .fixed-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .header-section {
+        padding: 6px 0;
+    }
+}
+
+
+@media (max-width:992px) {
+    .service {
+        margin-top: 40px;
+    }
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .service-item p {
+        width: 65%;
+        margin: auto;
+    }
+}
+
+
+@media (max-width:815px) {
+    .left-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .right-menu {
+        width: 100%;
+        
+    }
+    .right-menu ul {
+        text-align: center;
+    }
+    .right-menu ul li a {
+        border-right: none;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .blog-content {
+        margin: 40px 0;
+    }
+
+    .blog-left-content {
+        width: 100%;
+    }
+    .blog-right-notification {
+        width: 100%;
+    }
+
+
+    .footer-left {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-left P {
+        font-size: 15px;
+    }
+    .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .social-menu ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .social-menu {
+        margin-right: 0;
+    }
+}
+
+
+
+@media (max-width:576px) {
+    .right-menu ul li a {
+        padding: 0px 9px;
+        font-size: 17px;
+        line-height: 40px;
+    }
+
+    .banner-section {
+        padding: 100px 0;
+        box-sizing: border-box;
+
+    }
+    .banner-content h2 {
+        padding: 6px 9px;
+        font-size: 23px;
+    }
+    .banner-content h1 {
+        max-width: 325px;
+        font-size: 27px;
+        padding: 4px 0;
+        margin-top: 17px;
+    }
+
+
+    .about {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .banner-section {
+        padding: 80px 0;
+        box-sizing: border-box;
+
+    }
+    .banner-content h2 {
+        padding: 4px 8px;
+        font-size: 20px;
+    }
+    .banner-content h1 {
+        max-width: 280px;
+        font-size: 24px;
+        padding: 4px 0;
+        margin-top: 15px;
+    }
+}

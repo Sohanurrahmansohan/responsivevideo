@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.fixed-width{
+    width: 924px;
+    margin: auto;
+}
+
+/* Main Css */
+
+.header-section{
+    background-color: rgba(52, 207, 235, 0.822);
+}
+.left-logo {
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+.left-logo img {
+    width: 80px;
+    height: auto;
+    margin-top: 4px;
+}
+
+.right-menu {
+    display: inline-block;
+    width: 70%;
+    float: right;
+}
+.right-menu ul{
+    text-align: right;
+    
+}
+.right-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.right-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 0 18px;
+    line-height: 56px;
+    font-size: 20px;
+    border-right: 1px solid #039bf4;
+    transition: .5s;
+}
+.right-menu ul li a:hover {
+    background: #00bcd494;
+    color: #fff;
+}
+
+/* banner section */
+
+.banner-section{
+    background-image: url(https://i.ibb.co/y5Jsg4w/tried-cat.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 190px 0;
+}
+.banner-content h2 {
+    background: rgba(47, 227, 69, 0.59);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 28px;
+    border-radius: 5px;
+}
+.banner-content h1 {
+    background: #03a9f4d9;
+    color: #fff;
+    max-width: 404px;
+    margin: auto;
+    font-size: 35px;
+    padding: 6px 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* About */
+
+.about{
+    margin-top: 50px;
+}
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.about p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+/* Service section */
+
+.service{
+    margin-top: 60px;
+}
+.all-services{}
+.service-item {
+    float: left;
+    width: 29%;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 20px 15px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 10px rgb(221, 221, 221);
+}
+.service-item span {
+    display: block;
+    height: 55px;
+    width: 55px;
+    background: #58d7ef;
+    color: #fff;
+    margin: auto;
+    line-height: 55px;
+    font-size: 32px;
+    border-radius: 20px 0 20px 0;
+}
+.service-item h3{
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+
+/* blog Section */
+
+.blog-content{
+    margin: 70px 0;
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+}
+.blog-item{
+    margin-bottom: 20px;
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 15px;
+}
+.blog-right-notification{
+    float: right;
+    width: 25%;
+}
+.blog-right-notification h2 {
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.blog-right-notification ul{
+    list-style: none;
+}
+.blog-right-notification ul li {
+    border: 1px solid rgb(241, 233, 233);
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+/* footer section */
+
+.footer{
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 15px 0;
+}
+.footer-left{
+    width: 40%;
+    float: left;
+}
+.footer-left P{
+    margin-top: 5px;
+}
+.footer-right{
+    width: 60%;
+    float: right;
+}
+.social-menu{
+   margin-right: 30px;
+}
+.social-menu ul{
+    text-align: right;
+}
+.social-menu ul li {
+    display: inline-block;
+}
+.social-menu ul li a{
+    color: #fff;
+    font-size: 22px;
+    margin-left: 10px;
+    transition: .5s;
+}
+.social-menu ul li a:hover{
+    color: #58d7ef;
+}
